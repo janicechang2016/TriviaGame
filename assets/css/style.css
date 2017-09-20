@@ -1,0 +1,59 @@
+body {
+	background-image: url("../images/background2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+.title {
+	font-family: 'Inconsolata', monospace;
+	font-size: 80px;
+	color: #080840
+}
+
+#start-container {
+	padding-top: 50px;
+}
+
+#start-button {
+	width: 300px;
+	height: 100px;
+	font-family: 'Inconsolata', monospace;
+	color: #080840;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#question-container {
+	font-family: 'Inconsolata', monospace;
+	color: #080840;
+}
+
+.timer {
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+#done {
+	width: 250px;
+	height: 80px;
+	font-family: 'Inconsolata', monospace;
+	color: #080840;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#end-game {
+	font-family: 'Inconsolata', monospace;
+	color: #080840;
+
+}
+
+#all-done {
+	font-size: 40px;
+}

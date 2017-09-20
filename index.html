@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breaking Bad Trivia</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+</head>
+<body>
+
+	<div id="start-container">
+		<h1 class="title">
+			Breaking Bad Trivia
+		</h1>
+		<button id="start-button">Start</button>
+	</div>
+
+	<div id="question-container">
+		<h1 class="title">Breaking Bad Trivia</h1>
+
+		<h1 class="timer">Time Remaining: <span id="time-display">60 Seconds</span></h1>
+
+		<h1>1. In Season Four, Mike gets shot in which part of his body?</h1>
+		<!--His Ear-->
+			<input type="radio" name="q1" value="His Nose">His Nose
+			<input type="radio" name="q1" value="His Forehead">His Forehead
+			<input type="radio" name="q1" value="His Chin">His Chin
+			<input type="radio" name="q1" value="His Ear">His Ear
+
+		<h1>2. In Season Four, Skyler and Walter begin attending meetings of which organization?</h1>
+		<!--Gamblers Anonymous-->
+			<input type="radio" name="q2" value="Alcoholics Anonymous">Alcoholics Anonymous
+			<input type="radio" name="q2" value="Gamblers Anonymous">Gamblers Anonymous
+			<input type="radio" name="q2" value="Overeaters Anonymous">Overeaters Anonymous
+			<input type="radio" name="q2" value="Narcotics Anonymous">Narcotics Anonymous
+
+		<h1>3. Which cartel boss is killed by Gus?</h1>
+		<!--Don Eladio-->
+			<input type="radio" name="q3" value="Don Eladio">Don Eladio
+			<input type="radio" name="q3" value="Don Rodrigo">Don Rodrigo
+			<input type="radio" name="q3" value="Don Finito">Don Finito
+			<input type="radio" name="q3" value="Don Marco">Don Marco
+
+		<h1>4. What is the name of the company founded by Walter's former chemistry assistant, Gretchen?</h1>
+		<!--Gray Matter-->
+			<input type="radio" name="q4" value="Schwartz Pharmaceuticals">Schwartz Pharmaceuticals
+			<input type="radio" name="q4" value="West Road Chemical">West Road Chemical
+			<input type="radio" name="q4" value="Schwartz Research, Inc.">Schwartz Research, Inc.
+			<input type="radio" name="q4" value="Gray Matter">Gray Matter
+
+		<h1>5. What is the name of Jesse Pinkman's little brother?</h1>
+		<!--Jake-->
+			<input type="radio" name="q5" value="John">John
+			<input type="radio" name="q5" value="James">James
+			<input type="radio" name="q5" value="Jake">Jake
+			<input type="radio" name="q5" value="Jeffrey">Jeffrey
+
+		<h1>6. What character is killed in a chemical explosion in the first season?</h1>
+		<!--Emilio-->
+			<input type="radio" name="q6" value="Cito">Cito
+			<input type="radio" name="q6" value="Krazy-8">Krazy-8
+			<input type="radio" name="q6" value="Juanito">Juanito
+			<input type="radio" name="q6" value="Emilio">Emilio
+
+		<h1>7. In Season One, Walter hallucinates a student saying what word instead of "midterm"?</h1>
+		<!--Murder-->
+			<input type="radio" name="q7" value="Murder">Murder
+			<input type="radio" name="q7" value="Massacre">Massacre
+			<input type="radio" name="q7" value="Meth">Meth
+			<input type="radio" name="q7" value="Mayhem">Mayhem
+
+		<h1>8. Walter learns that Krazy-8's father owns what kind of store?</h1>
+		<!--Furniture-->
+			<input type="radio" name="q8" value="
+			Grocery">Grocery
+			<input type="radio" name="q8" value="Hardware">Hardware
+			<input type="radio" name="q8" value="Electronics">Electronics
+			<input type="radio" name="q8" value="Furniture">Furniture
+
+		<h1>9. What name does Hank choose for his meth-busting operation?</h1>
+		<!--Icebreaker-->
+			<input type="radio" name="q9" value="Black Ice">Black Ice
+			<input type="radio" name="q9" value="Icebreaker">Icebreaker
+			<input type="radio" name="q9" value="Thin Ice">Thin Ice
+			<input type="radio" name="q9" value="Ice Man">Ice Man
+
+		<h1>10. Walter has a parking spot stolen by a driver with what boastful license plate?</h1>
+		<!--KEN WINS-->
+			<input type="radio" name="q10" value="KINGKEN">KINGKEN
+			<input type="radio" name="q10" value="KEN WINS">KEN WINS
+			<input type="radio" name="q10" value="KENRULES">KENRULES
+			<input type="radio" name="q10" value="SUPERKEN">SUPERKEN
+
+		<br>
+		<button id="done">Done</button>
+	</div>
+
+	<div id="end-game">
+		<h1 class="title">Breaking Bad Trivia</h1>
+
+		<h1 id="all-done">All Done!</h1>
+
+		<h1>Correct Answers: <span id="correct-answers">0</span></h1>
+		<h1>Incorrect Answers: <span id="incorrect-answers">0</span></h1>
+		<h1>Unanswered: <span id="unanswered">0</span></h1>
+	</div>
+
+
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
